@@ -51,13 +51,10 @@ body {
 
 #arrow {
 	position:absolute;
-  	left: calc(5% + 430px);
-  	bottom:7.6%;
+  	left: calc(5% + 434px);
+  	bottom:7%;
   	transform:translateY(-20px);
   	height:100px;
-  	background-color:white;
-  	border-radius:50%;
-  	background-opacity:50%;
 }
 
 .bounce {
