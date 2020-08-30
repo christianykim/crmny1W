@@ -176,20 +176,19 @@ button:hover {
 
 #zine2cover{
 	float:left;
-	width: 38%;
 	opacity: .9;
 	position: relative;
 	padding-left: 2%;
-	height:auto;
+	height:75%;
 }
 
 #zine2-name-button{
 	float: right;
 	color: #FFFFFF;
 	width: 50%;
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-right: 5%;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 
 ul{
@@ -205,6 +204,7 @@ ul{
 
 li{
 	display: block;
+	min-width:152px;
 }
 
 #zine2download{
