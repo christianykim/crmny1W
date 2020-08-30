@@ -118,6 +118,7 @@ body {
 	height:450px;
 	padding-top:5%;
 	padding-bottom:3%;
+	display: none;
 }
 
 #zine2-info{
@@ -137,13 +138,13 @@ body {
 button {
   	margin: 10px;
   	padding: 15px;
-  	border: 2px solid #000000;
+  	border: 2px solid #FFFFFF;
   	border-radius: 6px;
   	text-align: center;
   	display: inline-block;
   	text-transform: uppercase;
   	position: relative;
-  	color:black;
+  	color:white;
   	font-family:"ceremony";
   	font-size: 20px;
   	background-color: transparent;
@@ -152,8 +153,8 @@ button {
 
 button:hover {
     cursor: pointer;
-    background: #000000;
-    color: white;
+    background: #FFFFFF;
+    color: black;
 }
 
 #zine2-cover{
@@ -168,11 +169,62 @@ button:hover {
 	height:75%;
 }
 
+#vol2-redo{
+	background-color: #000000;
+	height: auto;
+}
+
+#zine2cover{
+	float:left;
+	width: 38%;
+	opacity: .9;
+	position: relative;
+	padding-left: 2%;
+	height:auto;
+}
+
+#zine2-name-button{
+	float: right;
+	color: #FFFFFF;
+	width: 50%;
+	padding-top: 10%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+}
+
+ul{
+	list-style: none;
+	line-height: 1.7em;
+	font-size: 24px;
+	display: block;
+  	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    column-gap: 10%;
+}
+
+li{
+	display: block;
+}
+
+#zine2download{
+	text-align: left;
+	position: relative;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+#zine2download:hover{
+	color:#000000;
+	background-color: #FFFFFF;
+}
+
 
 #vol1{
 	background-color:rgb(232, 240, 245);
 	padding-top:5%;
 	height:500px;
+	display: none;
 }
 
 #vol1-logo {
@@ -228,6 +280,48 @@ button:hover {
 #event1-cover-img {
 	height:60%;
 
+}
+
+#vol1-redo{
+	background-color:rgb(232, 240, 245);
+}
+
+#vol1-title{
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+#vol1-info{
+	padding-top:13%;
+	padding-left: 10%;
+	float:left;
+	display:inline;
+	text-align:left;
+	width: 50%;
+	background-image:url('img/gltch.gif');
+	background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 82.7%;
+    background-blend-mode: screen;
+    background-position: center;
+}
+
+#vol1-zine{
+	float: right;
+	width: 40%;
+	opacity: .9;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 footer {
