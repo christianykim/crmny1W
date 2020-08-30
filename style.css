@@ -29,7 +29,7 @@ body {
 	font-size:52px;
 	font-family:"ceremony";
 	position:absolute;
-	top:77%;
+	bottom:5%;
 	left:5%;
 	text-align:left;
 	padding:15px;
@@ -51,10 +51,13 @@ body {
 
 #arrow {
 	position:absolute;
-  	right: 45%;
-  	bottom:20px;
+  	left: calc(5% + 430px);
+  	bottom:7.6%;
   	transform:translateY(-20px);
   	height:100px;
+  	background-color:white;
+  	border-radius:50%;
+  	background-opacity:50%;
 }
 
 .bounce {
