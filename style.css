@@ -171,18 +171,8 @@ button:hover {
 
 #zine1-download {
 	background-color:rgb(196, 196, 196);
-	width:66%;
 	margin-left:17%;
 	margin-right:17%;
-	position:relative;
-	text-align:center;
-	margin-top:30px;
-}
-
-#zine1-download > a{
-	text-decoration:none;
-	color:black;
-	line-height:40px;
 }
 
 #zine1-cover{
@@ -190,7 +180,6 @@ button:hover {
     display:inline-block;
     text-align:center;
 }  
-
 
 #zine1-cover-img {
 	height:60%;
@@ -205,18 +194,8 @@ button:hover {
 
 #event1-download {
 	background-color:rgb(196, 196, 196);
-	width:66%;
 	margin-left:17%;
 	margin-right:17%;
-	position:relative;
-	text-align:center;
-	margin-top:30px;
-}
-
-#event1-download > a{
-	text-decoration:none;
-	color:black;
-	line-height:40px;
 }
 
 #event1-cover{
