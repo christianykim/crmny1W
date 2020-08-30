@@ -312,12 +312,41 @@ footer {
 		left:15%;
 	}
 
-	#vol2 {
-		background-color:white;
-		height:600px;
-		padding-top:5%;
-		padding-bottom:5%;
+	#zine2cover {
+	    width: 70%;
+	    display:block;
+	    text-align:center;
+	    vertical-align: middle;
+	    margin-top:20px;
+	    float:none;
+		opacity: .9;		
+		padding-left: 15%;
+		padding-right:15%;
+		padding-top:10%;
+		min-height:0;
 	}
+
+	#zine2-name-button{
+		float: none;
+		display:block;
+		color: #FFFFFF;
+		width: 90%;
+		padding-top: 7%;
+		padding-right: 5%;
+		padding-left:5%;
+	}
+	ul{
+		font-size: 12px;
+		display: block;
+	  	-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	    column-gap: 0%;
+	    min-width:0;
+	}
+
+
+
 
 	#zine2-info {
 		width: 100%;
@@ -325,7 +354,7 @@ footer {
 		font-size:16px;
 		text-align:center;
 		vertical-align: middle;
-	}  
+	}
 
 	#zine2-names {
 		font-size:16px;
