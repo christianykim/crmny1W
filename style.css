@@ -113,27 +113,6 @@ body {
 
 }
 
-#vol2{
-	background-color:white;
-	height:450px;
-	padding-top:5%;
-	padding-bottom:3%;
-	display: none;
-}
-
-#zine2-info{
-    width: 50%;
-    display:inline-block;
-    font-size:24px;
-    text-align:center;
-    vertical-align: middle;
-}  
-
-#zine2-names {
-	font-size:24px;
-    padding:30px;
-    line-height:1.5em;
-}
 
 button {
   	margin: 10px;
@@ -157,17 +136,6 @@ button:hover {
     color: black;
 }
 
-#zine2-cover{
-    width: 50%;
-    display:inline-block;
-    text-align:center;
-    vertical-align: middle;
-}  
-
-
-#zine2-cover-img {
-	height:75%;
-}
 
 #vol2-redo{
 	background-color: #000000;
@@ -222,69 +190,6 @@ li{
 #zine2download:hover{
 	color:#000000;
 	background-color: #FFFFFF;
-}
-
-
-#vol1{
-	background-color:rgb(232, 240, 245);
-	padding-top:5%;
-	height:500px;
-	display: none;
-}
-
-#vol1-logo {
-	width:45%;
-	margin-left:25%;
-	margin-right:25%;
-	margin-bottom:5%
-}
-
-#zine1-info{
-    width: 50%;
-    display:inline-block;
-    font-size:24px;
-    text-align:center;
-}
-
-#zine1-download {
-	background-color:rgb(196, 196, 196);
-	margin-left:17%;
-	margin-right:17%;
-}
-
-#zine1-cover{
-    width: 100%;
-    display:inline-block;
-    text-align:center;
-}  
-
-#zine1-cover-img {
-	height:60%;
-}
-
-#event1-info{
-    width: 50%;
-    display:inline-block;
-    font-size:24px;
-    text-align:center;
-}
-
-#event1-download {
-	background-color:rgb(196, 196, 196);
-	margin-left:17%;
-	margin-right:17%;
-}
-
-#event1-cover{
-    width: 100%;
-    display:inline-block;
-    text-align:center;
-}  
-
-
-#event1-cover-img {
-	height:60%;
-
 }
 
 #vol1-redo{
