@@ -288,7 +288,7 @@ li{
 }
 
 #vol1-redo{
-	background-image:url('img/gltch.gif');
+	background-image:url('img/gltch2.gif');
 	background-size:cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -337,10 +337,17 @@ footer {
   	align-items: center;
 }
 
-#footer-logo {
+#footer-logo-link {
+	height:100px;
 	width:18%;
 	margin-right:5%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 
+#footer-logo {
+	width:100%;
 }
 
 #footer-info {
