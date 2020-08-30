@@ -283,7 +283,14 @@ li{
 }
 
 #vol1-redo{
-	background-color:rgb(232, 240, 245);
+
+	background-image:url('img/gltch.gif');
+	background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: auto;
+    background-blend-mode: screen;
+    background-position: left top;
 
 }
 
@@ -300,20 +307,12 @@ li{
 	display:inline;
 	text-align:left;
 	width: 50%;
-	height:670px;
-	background-image:url('img/gltch.gif');
-	background-size:cover;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    background-blend-mode: screen;
-    background-position: center;
 }
 
 #vol1-zine{
 	float: right;
 	width: 40%;
-	opacity: .9;
-
+	opacity: 1;
 }
 
 .clearfix:after{
