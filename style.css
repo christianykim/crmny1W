@@ -128,7 +128,7 @@ button {
   	font-family:"ceremony";
   	font-size: 20px;
   	background-color: transparent;
-  	filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.14));
+  	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
 }
 
 button:hover {
@@ -301,7 +301,7 @@ button:hover {
 		background-color:white;
 		height:600px;
 		padding-top:5%;
-		padding-bottom:3%;
+		padding-bottom:5%;
 	}
 
 	#zine2-info {
@@ -317,23 +317,6 @@ button:hover {
 	    padding:30px;
 	    line-height:1em;
 	}
-
-	#zine2-download {
-		background-color:rgb(196, 196, 196);
-		width:66%;
-		margin-left:17%;
-		margin-right:17%;
-		position:relative;
-		text-align:center;
-	}
-
-	#zine2-download > a {
-		text-decoration:none;
-		color:black;
-		line-height:40px;
-	}
-
-
 
 	#zine2-cover {
 	    width: 100%;
@@ -351,6 +334,8 @@ button:hover {
 
 	#vol1 {
 		height:800px;
+		padding-top: 5%;
+		padding-bottom: 5%
 	}
 
 	#vol1-logo {
@@ -365,12 +350,6 @@ button:hover {
 	    display:inline-block;
 	    font-size:16px;
 	    text-align:center;
-	}
-
-	#zine1-download > a{
-		text-decoration:none;
-		color:black;
-		line-height:40px;
 	}
 
 	#zine1-cover-img {
@@ -394,6 +373,8 @@ button:hover {
 		height:auto;
 
 	}
+
+
 
 	#footer {
 		font-size:12px;
