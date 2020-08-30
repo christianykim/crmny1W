@@ -179,22 +179,22 @@ button:hover {
 	opacity: .9;
 	position: relative;
 	padding-left: 5%;
-	height:75%;
+	height:auto;
+	width: 30%;
 }
 
 #zine2-name-button{
 	float: right;
 	color: #FFFFFF;
-	width: 50%;
-	padding-top: 5%;
-	padding-right: 3%;
-	padding-bottom: 5%;
+	width: 45%;
+	padding-top: 7%;
+	padding-right: 10%;
 }
 
 ul{
 	list-style: none;
 	line-height: 1.7em;
-	font-size: 24px;
+	font-size: 20px;
 	display: block;
   	-webkit-column-count: 3;
     -moz-column-count: 3;
