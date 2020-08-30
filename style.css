@@ -179,16 +179,19 @@ button:hover {
 	opacity: .9;
 	position: relative;
 	padding-left: 5%;
-	height:80%;
+
+	height:auto;
+	width: 30%;
+	min-height:450px;
 }
 
 #zine2-name-button{
 	float: right;
 	color: #FFFFFF;
-	width: 48%;
-	padding-top: 5%;
-	padding-right: 3%;
 
+	width: 45%;
+	padding-top: 7%;
+	padding-right: 10%;
 }
 
 ul{
