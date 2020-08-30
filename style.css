@@ -283,15 +283,13 @@ li{
 }
 
 #vol1-redo{
-
 	background-image:url('img/gltch.gif');
 	background-size:cover;
     background-repeat: repeat-y;
     background-attachment: fixed;
     height: auto;
-    background-blend-mode: screen;
+    background-blend-mode: lighten;
     background-position: left top;
-
 }
 
 #vol1-title{
