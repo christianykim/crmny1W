@@ -51,9 +51,10 @@ body {
 
 #arrow {
 	position:absolute;
-  	right: 5%;
-  	bottom:calc(2% + 20px);
+  	right: 45%;
+  	bottom:20px;
   	transform:translateY(-20px);
+  	height:100px;
 }
 
 .bounce {
@@ -330,7 +331,7 @@ footer {
 		width:75%;
 		height:auto;
 	}
-	
+
 	#vol1 {
 		padding-top: 5%;
 		padding-bottom: 5%;
