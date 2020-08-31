@@ -368,87 +368,18 @@ footer {
 		width: 90%;
 	}
 
-	#zine2-info {
-		width: 100%;
-		display:inline-block;
-		font-size:16px;
-		text-align:center;
-		vertical-align: middle;
-	}
-
-	#zine2-names {
-		font-size:16px;
-	    padding:30px;
-	    line-height:1em;
-	}
-
-	#zine2-cover {
-	    width: 100%;
-	    display:inline-block;
-	    text-align:center;
-	    vertical-align: middle;
-	    margin-top:20px;
-	}
-
-
-	#zine2-cover-img {
-		width:75%;
-		height:auto;
-	}
-
-	#vol1 {
-		padding-top: 5%;
-		padding-bottom: 5%;
-		height:auto;
-	}
-
-	#vol1-logo {
-		width:80%;
-		margin-left:10%;
-		margin-right:10%;
-		margin-bottom:5%
-	}
-
-	#zine1-info{
-	    width: 100%;
-	    display:inline-block;
-	    font-size:16px;
-	    text-align:center;
-	}
-
-	#zine1-cover-img {
-		width:100%;
-		height:auto;
-	}
-
-
-	#event1-info{
-	    width: 100%;
-	    display:inline-block;
-	    font-size:16px;
-	    text-align:center;
-	}
-
-
-
-	#event1-cover-img {
-		width:100%;
-		height:auto;
-
-	}
-
-
 
 	footer {
 		font-size:12px;
 		height:100px;
 	}
 
-	#footer-logo {
+	#footer-logo-link {
 		margin-left:2%;
-		width:18%;
 		margin-right:5%;
 	}
+
+
 
 	#footer-info {
 		width:37%;
