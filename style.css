@@ -345,8 +345,28 @@ footer {
 	    min-width:0;
 	}
 
+	#zine2download{
+		margin-bottom:15%;
+	}
 
+	#vol1-zine{
+		display:none;
+	}
 
+	#vol1-title {
+		margin-bottom:250px;
+		padding-top:0;
+		margin-top:0;
+	}
+
+	#vol1-info{
+		padding-top:0%;
+		padding-bottom:5%;
+		float:left;
+		display:inline;
+		text-align:left;
+		width: 90%;
+	}
 
 	#zine2-info {
 		width: 100%;
