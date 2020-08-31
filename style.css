@@ -357,11 +357,13 @@ footer {
 		margin-bottom:250px;
 		padding-top:0;
 		margin-top:0;
+		padding-left:2.5%;
 	}
 
 	#vol1-info{
 		padding-top:0%;
 		padding-bottom:5%;
+		padding-left: 5%;
 		float:left;
 		display:inline;
 		text-align:left;
