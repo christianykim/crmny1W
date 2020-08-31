@@ -153,7 +153,7 @@ button:hover {
 	min-height:450px;
 }
 
-#zine2-name-button{
+#zine2info{
 	float: right;
 	color: #FFFFFF;
 
@@ -192,7 +192,7 @@ li{
 	background-color: #FFFFFF;
 }
 
-#vol1-redo{
+#vol1{
 	background-image:url('img/gltch2.gif');
 	background-size:cover;
     background-repeat: repeat-y;
