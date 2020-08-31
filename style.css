@@ -198,7 +198,7 @@ li{
     background-repeat: repeat-y;
     background-attachment: fixed;
     height: auto;
-    background-blend-mode: lighten;
+    background-blend-mode: normal;
     background-position: left top;
 }
 
