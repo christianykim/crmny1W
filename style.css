@@ -140,6 +140,7 @@ button:hover {
 #vol2{
 	background-color: #000000;
 	height: auto;
+	display: none;
 }
 
 #zine2cover{
