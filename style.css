@@ -381,17 +381,18 @@ footer {
 	#schedule{
 		font-size: 80%;
 		margin-left: 5%;
+		margin-right: 7%;
 	}
 
 	#names{
 		float:left;
-		width: 40%;
+		width: 50%;
 	}
 
 	#times{
 		float: right;
 		display: inline;
-		width: 30%;
+		width: 20%;
 	}
 
 	#add{
@@ -413,9 +414,9 @@ footer {
 	}
 
 
-	#vol2eventwatch{
+	#event2watch{
 		font-size: 90%;
-		margin-left: 27%;
+		margin-left: 22%;
 		margin-top: 10%;
 	}
 	
