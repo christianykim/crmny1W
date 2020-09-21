@@ -104,7 +104,6 @@ body {
 	60% {transform: translateY(-15px);}
 }
 
-
 .page {
 	width:84%;
 	height:500px;
@@ -112,7 +111,6 @@ body {
 	overflow:hidden;
 
 }
-
 
 button {
   	margin: 10px;
@@ -136,9 +134,67 @@ button:hover {
     color: black;
 }
 
-
 #vol2{
+	background: url('img/board.png');
+	background-size: cover;
+}
+
+#vol2event{
+	padding: 5% 0%;
+}
+
+#add{
+	font-size: .7em;
+}
+
+#schedule{
+	color: white;
+	font-size: 2em;
+}
+
+#names{
+	width: 40%;
+	text-align: right;
+	float: left;
+	display: inline;
+	list-style: none;
+	line-height: 1.7em;
+	padding-left: 2%;
+	margin-left: 3%;
+}
+
+#times{
+	float: right;
+	text-align: left;
+	list-style: none;
+	line-height: 1.7em;
+	display: inline;
+	width: 30%;
+	padding-left: 2%;
+	margin-right: 20%;
+	color: white;
+}
+
+#add{
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#event2watch{
+	margin-left: 40%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+#event2watch:hover{
+	color:#FFFFFF;
 	background-color: #000000;
+}
+
+
+
+#vol2zine{
 	height: auto;
 }
 
@@ -161,10 +217,10 @@ button:hover {
 	padding-right: 10%;
 }
 
-ul{
+#zine2-list{
 	list-style: none;
 	line-height: 1.7em;
-	font-size: 20px;
+	font-size: 22px;
 	display: block;
   	-webkit-column-count: 3;
     -moz-column-count: 3;
@@ -183,7 +239,7 @@ li{
 	position: relative;
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
-	margin-left:10%;
+	margin-left:20%;
 }
 
 #zine2download:hover{
@@ -312,6 +368,36 @@ footer {
 		left:15%;
 	}
 
+	#vol2{
+		background: url('img/dust.png');
+		background-size: cover;
+	}
+
+	#vol2event{
+		display:block;
+		padding-top: 10%;
+	}
+
+	#schedule{
+		font-size: 80%;
+		margin-left: 5%;
+	}
+
+	#names{
+		float:left;
+		width: 40%;
+	}
+
+	#times{
+		float: right;
+		display: inline;
+		width: 30%;
+	}
+
+	#add{
+		font-size: 50%;
+	}
+
 	#zine2cover {
 	    width: 70%;
 	    display:block;
@@ -326,16 +412,24 @@ footer {
 		min-height:0;
 	}
 
+
+	#vol2eventwatch{
+		font-size: 90%;
+		margin-left: 27%;
+		margin-top: 10%;
+	}
+	
 	#zine2info{
 		float: none;
 		display:block;
 		color: #FFFFFF;
 		width: 90%;
-		padding-top: 7%;
+		padding-top: 2%;
 		padding-right: 5%;
 		padding-left:5%;
 	}
-	ul{
+
+	#zine2-list{
 		font-size: 12px;
 		display: block;
 	  	-webkit-column-count: 3;
@@ -347,6 +441,7 @@ footer {
 
 	#zine2download{
 		margin-bottom:15%;
+		font-size: 90%;
 	}
 
 	#vol1-zine{
@@ -380,7 +475,6 @@ footer {
 		margin-left:3.5%;
 		margin-right:3.5%;
 	}
-
 
 
 	#footer-info {
