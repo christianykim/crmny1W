@@ -187,12 +187,6 @@ button:hover {
 	text-align: center;
 }
 
-#event2watch:hover{
-	color:#FFFFFF;
-	background-color: #000000;
-}
-
-
 
 #vol2zine{
 	height: auto;
@@ -237,14 +231,8 @@ li{
 #zine2download{
 	text-align: left;
 	position: relative;
-	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
 	margin-left:20%;
-}
-
-#zine2download:hover{
-	color:#FFFFFF;
-	background-color: #000000;
 }
 
 #vol1{
