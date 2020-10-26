@@ -235,6 +235,13 @@ li{
 	margin-left:20%;
 }
 
+#zine2purchase{
+	text-align: left;
+	position: relative;
+	border: 2px solid #FFFFFF;
+	margin-left:20%;
+	}
+
 #vol1{
 	background-image:url('img/gltch2.gif');
 	background-size:cover;
@@ -439,6 +446,11 @@ body {
 		font-size: 90%;
 	}
 
+	#zine2purchase{
+		margin-bottom:15%;
+		font-size: 90%;
+	}
+
 	#vol1-zine{
 		display:none;
 	}
@@ -560,7 +572,7 @@ body {
 	}
 
 	#zine2cover {
-	    width: 70%;
+	    width: 50%;
 	    display:block;
 	    text-align:center;
 	    vertical-align: middle;
@@ -601,6 +613,11 @@ body {
 	}
 
 	#zine2download{
+		margin-bottom:15%;
+		font-size: 90%;
+	}
+
+	#zine2purchase{
 		margin-bottom:15%;
 		font-size: 90%;
 	}
