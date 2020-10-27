@@ -614,11 +614,13 @@ body {
 	#zine2download{
 		margin-bottom:15%;
 		font-size: 80%;
+		margin-left: 17%;
 	}
 
 	#zine2purchase{
 		margin-bottom:15%;
 		font-size: 80%;
+		margin-left: 17%;
 	}
 
 	#vol1-zine{
@@ -640,6 +642,14 @@ body {
 		display:inline;
 		text-align:left;
 		width: 90%;
+	}
+
+	#zine1download{
+		font-size: 80%;
+	}
+
+	#event1watch{
+		font-size: 80%;
 	}
 
 
