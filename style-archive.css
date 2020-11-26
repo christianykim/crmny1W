@@ -3,6 +3,8 @@ table {
   border-collapse: collapse;
   text-align: left;
   width: 30%;
+  margin: 5% 30% 0% 35%;
+  line-height: 1.2em;
 }
 
 th, td {
